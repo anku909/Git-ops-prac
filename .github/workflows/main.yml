@@ -65,7 +65,7 @@ jobs:
       # UPdate the K8s Manifest Files
       - name: Update k8s Manifests
         run: |
-        sed -i 's|image: ankudev/demo-app:*|image: ankudev/demo-app:${{ env.VERSION }}|g' deploy/deploy.yaml
+          sed -i 's|image: ankudev/demo-app:*|image: ankudev/demo-app:${{ env.VERSION }}|g' deploy/deploy.yaml
 
       # Update Github
       - name: Commit the changes
