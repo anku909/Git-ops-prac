@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: ankudev/demo-app:20250128185159
+        image: ankudev/demo-app:20250129072840
         ports:
         - containerPort: 5000
